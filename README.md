@@ -10,3 +10,7 @@ Developing and evaluating a keyword speech recognizer.
 5.  1 delta energy feature
 6. 1 double-delta energy feature
 - Process: Useed a frame size of 25 ms with a 10 ms overlap. This will result in a different number of frames for each word (since each will likely be of slightly different length). Uniformly sample the frames in the speech so that the same number of frames exist for each of the five words. The result will be a data set of N words. For each word you will have a total of 39*M features, where M is the number of frames in each word. 
+- The final values are stored in a tensor of dimensions 39x123xN
+- New test audios were recorded as instructed and the Euclidian distance was calculated. 
+- The accuracy rate of our test audios was 89.7%.
+- The accuracy rate of five other individuals is 58.3%.
