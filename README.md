@@ -1,6 +1,6 @@
 # Speech-Recognition
 Developing and evaluating a keyword speech recognizer.
-- Here, we will developed and evaluated a keyword speech recognizer. 
+- Here, we developed and evaluated a keyword speech recognizer. 
 - we Recorded a multiple instances of spoken words, to create a datbase of multiple wordd. 
 - Implemented the MFCC algorithm for feature extraction and extract the following features:
 1. 12 MFCC (mel frequency cepstral coefficients)
